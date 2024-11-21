@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://yashworlikar:$HF_TOKEN@huggingface.co/spaces/yashW2022/Fashion-recommendation main
+        run: git push --force https://yashworlikar:$HF_TOKEN@huggingface.co/spaces/yashW2022/Fashion-recommendation main
