@@ -1,0 +1,4 @@
+venv
+ecommerce_data_with_base64_images.csv
+filter.py
+embedding.py
