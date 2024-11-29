@@ -244,5 +244,5 @@ with gr.Blocks(theme=orange_theme) as demo:
             inputs=text_inputs, 
             outputs=output
         )
-
+demo.queue(default_concurrency_limit=6)
 demo.launch()
